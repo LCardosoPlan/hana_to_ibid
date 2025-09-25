@@ -26,7 +26,7 @@ class login_okta:
         self.page.set_default_timeout(60000)
         print("Logando no SAP...")
         print(self.page)
-        self.page.goto(SAP_URL)
+        self.page.goto(OKTA_URL)
         self.page.fill(f"id={INPUT_EMAIL}", self.plan_email)
         self.page.fill(f"id={INPUT_PASS}", self.plan_senha)
         self.page.get_by_text("Mantenha-me conectado").click()
