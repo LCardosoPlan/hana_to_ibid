@@ -1,5 +1,6 @@
 import io
 from playwright.sync_api import sync_playwright, Page
+from datetime_utils.datetime_utils import DateTimeUtils
 from f_constantes.constantes import (
     OKTA_URL, INPUT_EMAIL, INPUT_PASS, LOGON, LOGON_TITLE_PAGE, SAP_TITLE_PAGE, CHECKBOX_REMEMBERME,
     AUTH_JSON_PATH
